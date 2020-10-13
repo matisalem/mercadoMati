@@ -1,0 +1,102 @@
+<!DOCTYPE html>   
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>MercadoMati</title>
+      <link rel= "stylesheet" href= "/stylesheets/clase2.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+        <section id="sec1">
+      <img src= "/images/logo-mercado-liebre.svg" class="logo">
+      <input class='barra' type="text" name="buscador" id="buscador" placeholder="Busca lo que quieras!">
+  </section>
+  <p class='aba'>Compra en cuotas y sin tarjeta de credito</p>
+  
+  <button class="btn-toggle-navbar">
+    <i class="fas fa-bars"></i>
+</button>
+  <section id="head2">
+  <ul id="u1">
+      <li><a href="https://www.facebook.com">ofertas</a></li> 
+      <li><a href="https://www.facebook.com">Tiendas Oficiales</a></li>
+      <li><a href="https://www.facebook.com">Vender</a></li>
+      <li><a href="https://www.facebook.com">Ayuda</a></li>
+  </ul>
+  <ul id="u2">
+      <li><a href="/registration">Crea tu cuenta </a><i class="fas  fa-address-card"></i></li>
+      <li><a href="/login">Ingresa </a><i class="fas fa-sign-in-alt"></i></li>
+      <li><a href="/mercadoliebre">Mas compras </a><i class="fas fa-shopping-cart"></i></li>
+      </section>
+  
+    </header>
+<main>
+    <h2>REGISTRATE</h2>
+<form action="/mercadoliebre" method="POST">
+    <input class='imp1' type="text" id="name" name="name" placeholder="Nombre y apellido">
+    <input class='imp1' type="text" id="nombre usuario" name="usuario" placeholder='Nombre de usuario'>
+    <input class='imp1' type="text" id="email" name="email" placeholder='Email'>
+
+     <label class ='labcen' for="nacimiento">Fecha de nacimineto</label>
+     <input class='imp2' type="date" name="nacimiento" id="">
+     <input class='imp1' type="text" id="domicilio" name="domicilio" placeholder='Domicilio'>
+     <label class='labcen' for="Perfil de usuario">Perfil de usuario</label>
+     <p class='labcena'><input type='radio' name='perfil' value='C'>comprador
+    <input type='radio' name='perfil' value='V'>Vendedor</p>
+
+    <label class='labcen' for='intereses'>Intereses</label>
+    <p class='ww'><input class='boke' type='checkbox'  name='interes' value='electro'>electro</p>
+     <p class='ww'><input class='boke' type='checkbox' name='interes' value='moda'>Moda</p>
+        <p class='ww'><input class='boke' type='checkbox' name='interes' value='hogar'>Hogar</p>
+        <p class='ww'><input class='boke' type='checkbox' name='interes' value='jugueteria'>Jugueteria</p>
+        <p class='ww'><input class='boke' type='checkbox' name='interes' value='vida sana'>Vida sana</p>
+
+
+    <label class='labcen'for='foto usuario'>Elegi tu foto de usuario</label>
+    <p class='labcen'>
+        <input type='file' name='foto de perfil'>
+    </p>
+    <input class='imp1' type='password' id='contrasena' name='contrasena' placeholder='Elegí tu contraseña'>
+   <input class='imp1' type='password' id='contrasena' name='contrasena' placeholder='Confirmá tu contraseña'>
+
+    <button class='imp11' type='submit' class="b">enviar</button>
+    <button class='imp12' type='reset' class="e">Borrar</button>
+  </form>
+
+  </main>
+  
+  <footer>
+    <section>
+      <article>
+    <p class=blu><i class="fas fa-credit-card"></i></p>
+    <h6>Pagá con tarjeta o en efectivo</h6>
+    <p class=gris>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+
+    </article>
+
+    <article>
+
+    <p class=blu><i class="fas fa-gift"></i></p>
+    <h6>Envío gratis desde los $ 2.500</h6>
+    <p class=gris>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
+
+    </article>
+
+    <article>
+
+    <p class=blu><i class="fas fa-user-lock"></i></p>
+    <h6>Seguridad, de principio a fin</h6>
+    <p class=gris>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre prtegid@.</p>
+    </article>
+
+    </section>
+
+
+    <p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
+    </footer>
+</body>
+</html>

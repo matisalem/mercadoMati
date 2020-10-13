@@ -1,0 +1,156 @@
+<!DOCTYPE html>   
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>MercadoMati</title>
+      <link rel= "stylesheet" href= "/stylesheets/clase2.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <section id="sec1">
+    <img src= "/images/logo-mercado-liebre.svg" class="logo">
+    <input class='barra' type="text" name="buscador" id="buscador" placeholder="Busca lo que quieras!">
+</section>
+<p class='aba'>Compra en cuotas y sin tarjeta de credito</p>
+
+<button class="btn-toggle-navbar">
+  <i class="fas fa-bars"></i>
+</button>
+
+<nav class="main-navbar" id="head2">
+  <ul class="left-navbar" id='u1'>
+    <li><a href="#">Ofertas</a></li>
+    <li><a href="#">Tiendas Oficiales</a></li>
+    <li><a href="#">Vender</a></li>
+    <li><a href="#">Ayuda</a></li>
+  </ul>
+  <ul class="right-navbar" id='u2'>
+    <li><a href="/register">Creá tu cuenta <i class="far fa-address-card"></i></a></li>
+    <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+    <li><a href="/mercadoliebre">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+  </ul>
+</nav>
+
+  </header>
+
+
+
+
+<img src= "/images/img-home-banner.jpg" class='banner'>
+
+<main>
+  <h3>BASADO EN TU ULTIMA VISITA</h3>
+<section class='product-box'>
+  
+<!--<% for(var i = 0; i < products.length; i++){ %> 
+<article class='product-box_data'>
+<IMG SRC= "/images/<%=products[i].image%>">
+ <i class="fas fa-truck gre"></i>
+  <h6 class=pre>$ <%=products[i].price%></h6>
+  <h6 class=dyd><%=products[i].discount%>% OFF</h6>
+  <p class=dy><%=products[i].name%></p>
+</article>
+<% } %>
+-->
+
+<article class='product-box_data'>
+  <IMG SRC= "/images/img-cafetera-moulinex.jpg">
+    <i class="fas fa-truck gre"></i>
+    <h6 class=pre>$6.770</h6>
+    <h6 class=dyd>40% OFF</h6>
+    <p class=dy>Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</p>
+  </article>
+
+<article class='product-box_data'>
+  <img src= "/images/img-macbook-pro-2019.jpg">
+  <i class="fas fa-truck gre"></i>
+  <h6 class=pre>$230.000</h6>
+  <h6 class=dyd> 30% OFF</h6>
+  <p class=dy>Macbook Pro 2019 Lorem ipsum, dolor sit amet.</p>
+</article>
+
+<article class='product-box_data'>
+  <img src= "/images/img-samsung-galaxy-s10.jpg">
+  <i class="fas fa-truck gre"></i>
+  <h6 class=pre>$70.500</h6>
+  <h6 class=dyd>15% OFF</h6>
+  <p class=dy>Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</p>
+</article>
+<article class='product-box_data'>
+  <img src= "/images/img-tv-samsung-smart.jpg">
+  <i class="fas fa-truck gre"></i>
+  <h6 class=pre>$34.000</h6>
+  <h6 class=dyd>5% OFF</h6>
+  <p class=dy>SmartTv Samsung 43" Lorem ipsum, dolor sit amet.</p>
+</article>
+</section>
+<h3>Ofertas</h3>
+<section>
+<article class='product-box_data'>
+  <IMG SRC= "/images/img-cafetera-moulinex.jpg">
+    <i class="fas fa-truck gre"></i>
+    <h6 class=pre>$6.770</h6>
+    <h6 class=dyd>40% OFF</h6>
+    <p class=dy>Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</p>
+  </article>
+<article class='product-box_data'>
+    <img src= "/images/img-macbook-pro-2019.jpg">
+    <i class="fas fa-truck gre"></i>
+    <h6 class=pre>$230.000</h6>
+    <h6 class=dyd>30% OFF</h6>
+    <p class=dy>Macbook Pro 2019 Lorem ipsum, dolor sit amet.</p>
+  </article>
+<article class='product-box_data'>
+    <img src= "/images/img-samsung-galaxy-s10.jpg">
+    <i class="fas fa-truck gre"></i>
+    <h6 class=pre>$70.500</h6>
+    <h6 class=dyd>15% OFF</h6>
+    <p class=dy>Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</p>
+  </article>
+<article class='product-box_data'>
+    <img src= "/images/img-tv-samsung-smart.jpg">
+    <i class="fas fa-truck gre"></i>
+    <h6 class=pre>$34.000</h6>
+    <h6 class=dyd> 5% OFF</h6>
+    <p class=dy>SmartTv Samsung 43" Lorem ipsum, dolor sit amet.</p>
+  </article>
+    </section>
+    </main>
+
+    <footer>
+    <section>
+      <article>
+    <p class=blu><i class="fas fa-credit-card"></i></p>
+    <h6>Pagá con tarjeta o en efectivo</h6>
+    <p class=gris>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+
+    </article>
+
+    <article>
+
+    <p class=blu><i class="fas fa-gift"></i></p>
+    <h6>Envío gratis desde los $ 2.500</h6>
+    <p class=gris>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
+
+    </article>
+
+    <article>
+
+    <p class=blu><i class="fas fa-user-lock"></i></p>
+    <h6>Seguridad, de principio a fin</h6>
+    <p class=gris>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre prtegid@.</p>
+    </article>
+
+    </section>
+
+
+    <p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
+    </footer>
+    </div>
+</body>
+</html>

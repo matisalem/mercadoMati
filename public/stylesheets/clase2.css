@@ -1,0 +1,453 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
+}
+
+header{
+    background-color: #e4c945;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center
+}
+
+.aba{
+    margin: 7 auto;
+    width: 100%;
+    text-align: center
+}
+
+
+p {
+    font-size: 12px;
+}
+
+h3{
+    font-size: 24px;
+    background: #ebebeb;
+    text-align: center;
+    display: block;
+}
+
+a {
+    text-align: center
+}
+
+.pre {
+    font-size: 18px;
+    display: inline-block;
+    margin: 7px 0px;
+}
+
+.dyd {
+    font-size: 16px;
+    color: #39b54a;
+    display: inline-block;
+    margin: 7px 0px;
+}
+
+.dy {
+    font-size: 16px;
+    margin: 0%;
+}
+
+.gre{
+    color:#39b54a;
+    margin: 8px 0px;
+}
+
+main .fas{ 
+    border: 1px solid green;
+    padding: 4px;
+    border-radius: 100px;
+}
+
+.blu{
+    color: #1259c3
+}
+
+h6{
+    color: #666666;
+    font-size: 15px;
+}
+
+.gris{
+    color: #ebebeb
+}
+
+.foto {
+    display: inline-block;
+    
+}
+
+#sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header img {
+    width: 45%;
+    display: flex;
+}
+
+.barra{
+    display: flex;
+    width: 45%;
+}
+
+.banner {
+    width:100%
+}
+
+
+input {
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.b{
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+} 
+
+.e {
+    background-color: rosybrown;
+    color: white;
+    border-radius: 6px;
+}
+
+main article {
+    background-color: white; 
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 0px;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+article:hover{
+    box-shadow: 1px 1px 10px rgb(100, 100, 100);
+}
+
+.btn-toggle-navbar {
+    background-color: darkblue;
+    color: #ffffff;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    display: block;
+    margin: 20px auto 0;
+  }
+
+  .main-navbar {
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .left-navbar,
+  .right-navbar {
+    font-size: 1.5em;
+  }
+  
+  .left-navbar a,
+  .right-navbar a {
+    display: block;
+    padding: 5px 0;
+    border-bottom: solid 1px var(--gray);
+  }
+
+section {
+    display:flex;
+    flex-direction: column;
+}
+
+main article img {
+    width:100%;
+}
+
+h5{
+    color: grey;
+}
+
+h5:focus {
+    display: none;
+    visibility: hidden;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+header ul li {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.labcen{
+    text-align: center;
+    font-weight: 800;
+    font-size: 22px
+}
+
+.labcena{
+    text-align: center;
+    font-weight: bold;
+}
+
+form p.ww{
+    width: 90%;
+    margin-left: 40%
+
+}
+
+.imp1{
+    width:100%;
+    margin-top: 30px;
+    height: 33px;
+    max-width: 350px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.imp11{
+    width:100%;
+    margin-top: 30px;
+    height: 33px;
+    max-width: 350px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(72, 123, 235);
+}
+
+.imp12{
+    width:100%;
+    margin-top: 30px;
+    height: 33px;
+    max-width: 350px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(156, 28, 28)
+}
+
+.imp2{
+    width:100%;
+    height: 33px;
+    max-width: 350px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+label{
+    margin-top: 20px;
+    display:block;
+}
+
+#aa{
+    background-color:rgb(23, 116, 223)
+}
+
+.fl{
+    margin-top: 130px;
+}
+
+h2{
+    text-align: center;
+    color:blue;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 50px
+}
+
+.fla{
+    margin-top: 40px;
+}
+
+  .main-navbar {
+    margin-top: 20px;
+    display: none;
+  }
+
+  .left-navbar,
+.right-navbar {
+  font-size: 1.5em;
+}
+
+.left-navbar a,
+.right-navbar a {
+  display: block;
+  padding: 5px 0;
+  border-bottom: solid 1px var(--gray);
+}
+
+.product-box_data:hover p{
+    height: 40px;
+    margin-top: 15px;
+  }
+  
+  .product-box:hover i{
+    transform: rotate(360deg);
+    box-shadow: 0 0 5px var(--green);
+  }
+
+  .product-box_data p {
+    font-size: 1.5em;
+    width: 100%;
+    color: var(--gray);
+    margin: 0;
+    height: 0;
+    transition: 300ms;
+    overflow: hidden;
+  }
+
+
+
+@media (min-width: 361px) {
+   main article {
+        width: 45%;
+        
+    }
+    section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    header img{
+        width: 25%;
+    }
+
+    header .barra {
+        display: flex;
+        width: 45%;
+        height:25px;
+        margin-top: 10px
+    }
+    
+    header .aba {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #sec1 {
+        width: 70%;
+    }
+
+    header ul {
+        display: flex;
+        padding: 0;
+        margin: 5px 0px;
+    }
+
+    header ul li {
+        display: inline-block;
+        margin-left: 11px;
+        font-size: 13px;
+    }
+
+    #head2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #u1 {
+        margin-left: 14px;
+    }
+    
+    #u2 {
+        margin-right: 24px;
+    }
+
+    .btn-toggle-navbar {
+        display: none;
+      }
+    
+}
+
+@media (min-width: 769px){
+    main article {
+        width: 23%;
+        
+    }
+
+    .btn-toggle-navbar {
+        display: none;
+      }
+
+
+  .main-navbar,
+  .left-navbar,
+  .right-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .left-navbar a,
+  .right-navbar a {
+    border-bottom: none;
+  }
+
+  .left-navbar a:hover,
+  .right-navbar a:hover {
+    color: var(--light-blue);
+  }
+
+  .left-navbar li {
+    margin-right: 15px;
+  }
+  
+  .right-navbar li {
+    margin-left: 15px;
+  }
+
+    .main-navbar,
+  .left-navbar,
+  .right-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer article{
+      display: flex;
+      width: 30%;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+  }
+
+  footer h6{
+      margin: 10px;
+  }
+
+  footer section{
+    display: flex;
+  }
+
+
+}
